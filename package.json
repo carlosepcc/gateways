@@ -1,0 +1,41 @@
+{
+  "name": "gatew",
+  "version": "0.0.1",
+  "description": "Gateways Management",
+  "productName": "GATEW",
+  "author": "Carlos Enrique <carlosepcardenas@gmail.com>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue ./",
+    "format": "prettier --write \"**/*.{js,vue,css,html,md,json}\" --ignore-path .gitignore",
+    "test": "echo \"No test specified\" && exit 0",
+    "qdev": "quasar dev"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "axios": "^0.21.1",
+    "jwt-check-expiry": "^1.0.10",
+    "pdfmake": "^0.2.6",
+    "pinia": "^2.0.11",
+    "pinia-plugin-persistedstate": "^2.3.0",
+    "quasar": "^2.6.0",
+    "vue": "^3.0.0",
+    "vue-query": "^1.26.0",
+    "vue-router": "^4.0.0"
+  },
+  "devDependencies": {
+    "@quasar/app-vite": "^1.0.0-alpha.0",
+    "autoprefixer": "^10.4.2",
+    "eslint": "^8.10.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-vue": "^8.5.0",
+    "prettier": "^2.5.1",
+    "pug": "^3.0.2",
+    "vue-pug-plugin": "^2.0.2"
+  },
+  "engines": {
+    "node": ">= 14.x",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}

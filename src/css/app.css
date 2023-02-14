@@ -1,0 +1,48 @@
+/* app global css */
+:root {
+  --c-dark: #35393a;
+  --c-light: #fafafa;
+  --c-solid: #fafafa;
+  --c-primary-light: #d68f0010;
+}
+--q-dark-page {
+  background: #35393a;
+}
+.backdrop-blur {
+  backdrop-filter: blur(4px);
+}
+.backdrop-blur-xs {
+  backdrop-filter: blur(8px);
+}
+.backdrop-blur-sm {
+  backdrop-filter: blur(12px);
+}
+.backdrop-blur-md {
+  backdrop-filter: blur(16px);
+}
+.backdrop-blur-lg {
+  backdrop-filter: blur(24px);
+}
+.backdrop-blur-xl {
+  backdrop-filter: blur(48px);
+}
+.nobg {
+  background: none !important;
+}
+body.body--dark .opaque {
+  background: var(--c-dark);
+  color: var(--c-light);
+}
+body.body--light .opaque,
+body .opaque {
+  background: var(--c-light);
+  color: var(--c-dark);
+}
+.dark-glass {
+  background: #0002;
+  backdrop-filter: blur(48px);
+}
+.glass {
+  background: #fff2;
+  backdrop-filter: blur(48px);
+}
